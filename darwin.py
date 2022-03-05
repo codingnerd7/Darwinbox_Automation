@@ -34,13 +34,13 @@ br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
 br.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
 
 # Darwinbox credentials
-email = 'email_goes_here'
-password = 'password_goes_here'
+email = 'keerthi.s@talentsprint.com'
+password = 'Neversay@7'
 mobile = ""
 value = email.replace('@', '.')
 
-loginurl = 'https://voonik.darwinbox.in/user/login'
-clockurl = 'https://voonik.darwinbox.in/attendance/attendance/log?user='
+loginurl = 'https://talentsprint.darwinbox.in/user/login'
+clockurl = 'https://talentsprint.darwinbox.in/attendance/index/index/view/list#'
 
 mylog.log("INFO", "Opening Darwinbox.")
 try:
