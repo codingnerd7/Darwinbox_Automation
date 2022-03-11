@@ -2,10 +2,6 @@
 ## Python script to automatically clock in darwinbox. Uses Mac OSX launchctl to run every 10  minutes. Once it clocks in, it will send message to your mobile too. 
 
 <hr>
-###### Author: Gowtham Sai
-###### Website: https://gowtham-sai.com
-###### Aritcle: blog.gowtham-sai.com (Will be updated soon)
-###### Date: 7th Aug, 2016.
 ###### Purpose: I frustated with darwin box. I don't remember to clock in daily. 
 ###### What this script do?
 ######		-- This scritps run automatically checks every minute whether you clocked in or not.
